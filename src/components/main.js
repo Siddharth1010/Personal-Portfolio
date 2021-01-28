@@ -10,10 +10,10 @@ import Experience from './experience';
 const Main = () => (
     <Switch>
         <Route exact path="/portfolio/" component={LandingPage} />
-        <Route path="/portfolio/aboutme" component={AboutMe} />
-        <Route path="/portfolio/extras" component={Extras} />
-        <Route path="/portfolio/projects" component={Projects} />
-        <Route path="/portfolio/experience" component={Experience} />
+        <Route exact path="/portfolio/aboutme" component={AboutMe} />
+        <Route exact path="/portfolio/extras" component={Extras} />
+        <Route exact path="/portfolio/projects" component={Projects} />
+        <Route exact path="/portfolio/experience" component={Experience} />
 
     </Switch>
 )
