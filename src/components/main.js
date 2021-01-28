@@ -9,7 +9,7 @@ import Experience from './experience';
 
 const Main = () => (
     <Switch>
-        <Route exact path="/portfolio" component={LandingPage} />
+        <Route exact path="/portfolio/" component={LandingPage} />
         <Route path="/portfolio/aboutme" component={AboutMe} />
         <Route path="/portfolio/extras" component={Extras} />
         <Route path="/portfolio/projects" component={Projects} />

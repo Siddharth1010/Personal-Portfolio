@@ -29,7 +29,7 @@ class App extends Component {
     <Layout>
         <Header className="header-color" title="Welcome">
             <Navigation>
-                <Link to="/portfolio">Home</Link>
+                <Link to="/portfolio/">Home</Link>
                 <Link to="/portfolio/projects">Projects</Link>
                 <Link to="/portfolio/experience">Experience</Link>
                 <Link to="/portfolio/extras">Extras</Link>
