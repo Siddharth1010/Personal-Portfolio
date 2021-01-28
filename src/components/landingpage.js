@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Grid, Cell } from 'react-mdl';
-import personalimg from './img.JPG';
+import cvpdf from './documents/Siddharth-CV.pdf';
 
 class Landing extends Component{
     render(){
@@ -16,7 +16,7 @@ class Landing extends Component{
                             <h1>Siddharth Nair</h1>
                             <hr/>
                             <p>Python | Java | Scala | Swift | Flutter | HTML/CSS | JavaScript | PHP | React | NodeJS | SQL</p>
-                            <a className="cv-link" href="/Siddharth-CV.pdf" target="_blank" rel="noopener noreferrer" > View Resume</a>
+                            <a className="cv-link" href={cvpdf} target="_blank" rel="noopener noreferrer" > View Resume</a>
                             <div className="social-links">
                             <a href="https://github.com/Siddharth1010" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-github-square github" aria-hidden="true" />

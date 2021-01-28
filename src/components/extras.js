@@ -102,10 +102,17 @@ class Extras extends Component{
             )
         }
 
-        // else if(this.state.activeTab === 1){
-        //     return(
-        //     )
-        // }
+        else if(this.state.activeTab === 1){
+            return(
+
+                <div className="yettoadd">
+                    <center>
+                    <h1>Publications under review. Will be added soon. </h1>
+                    </center>
+                    
+                </div>
+            )
+        }
 
     }
     
