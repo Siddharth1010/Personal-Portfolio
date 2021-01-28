@@ -29,20 +29,20 @@ class App extends Component {
     <Layout>
         <Header className="header-color" title="Welcome">
             <Navigation>
-                <Link to="/">Home</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/experience">Experience</Link>
-                <Link to="/extras">Extras</Link>
-                <Link to="/aboutme">About Me</Link>
+                <Link to="/portfolio">Home</Link>
+                <Link to="/portfolio/projects">Projects</Link>
+                <Link to="/portfolio/experience">Experience</Link>
+                <Link to="/portfolio/extras">Extras</Link>
+                <Link to="/portfolio/aboutme">About Me</Link>
             </Navigation>
         </Header>
         <Drawer title="Siddharth Nair">
             <Navigation>
-            <Link to="/">Home</Link>
-              <Link to="/projects">Projects</Link>
-              <Link to="/experience">Experience</Link>
-              <Link to="/extras">Extras</Link>
-              <Link to="/aboutme">About Me</Link>
+            <Link to="/portfolio">Home</Link>
+              <Link to="/portfolio/projects">Projects</Link>
+              <Link to="/portfolio/experience">Experience</Link>
+              <Link to="/portfolio/extras">Extras</Link>
+              <Link to="/portfolio/aboutme">About Me</Link>
             </Navigation>
         </Drawer>
         <Content>
