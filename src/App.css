@@ -53,7 +53,7 @@ min-height:100%;
 
 .banner-text h1{
   font-family: 'Poppins', sans-serif;
-  font-size: 4em;
+  font-size: 4.5em;
   /* font-weight: bold; */
   color: white;
 }
@@ -74,6 +74,7 @@ min-height:100%;
   /* display: flex; */
   /* justify-content: space-between; */
   /* width: 50%; */
+  /* flex-wrap: wrap; */
   width: auto;
   margin-top: 3vh;
   margin-left: 10vw;
