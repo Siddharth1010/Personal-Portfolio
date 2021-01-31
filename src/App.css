@@ -28,7 +28,8 @@ min-height:100%;
   background-color: black;
   opacity: 0.8;
   width: 75%;
-  margin-top: 11.2%;
+  /* margin-top: 11.2%; */
+  margin-top: 10em;
   margin-left: 12.5%;
   /* margin: auto; */
   border-radius: 1.53vh;
@@ -52,7 +53,7 @@ min-height:100%;
 
 .banner-text h1{
   font-family: 'Poppins', sans-serif;
-  font-size: 4.4vw;
+  font-size: 4em;
   /* font-weight: bold; */
   color: white;
 }
@@ -70,12 +71,14 @@ min-height:100%;
 }
 
 .social-links{
-  display: flex;
-  justify-content: space-between;
+  /* display: flex; */
+  /* justify-content: space-between; */
   /* width: 50%; */
+  width: auto;
   margin-top: 3vh;
-  margin-left: 19vw;
-  margin-right: 19vw;
+  margin-left: 10vw;
+  display: block;
+  /* margin-right: 1vw; */
 }
 
 .social-links i{
@@ -83,12 +86,16 @@ min-height:100%;
   font-size: 4.5em;
   /* padding: 8px; */
   padding: 1.2vh;
+  margin-right: 10vw;
 }
 
 .linkedin:hover{
   color: #0072b1;
 }
 
+.twitter{
+  margin-right: 0;
+}
 .twitter:hover{
   color: #1DA1F2;
 }
