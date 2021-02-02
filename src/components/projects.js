@@ -152,12 +152,12 @@ class Projects extends Component{
 
 
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://support.rebrandly.com/hc/article_attachments/360020801793/rebrandly_url_shortener_010.png) center / cover'}} ></CardTitle>
+                <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://appinventor.mit.edu/explore/sites/explore.appinventor.mit.edu/files/ai-bee-logo.png) center / cover'}} ></CardTitle>
                 <CardText>
-                <strong>URL Shortener: </strong>This project was out of curiosity for how URL Shorteners work. This is a URL shortener in Flask. Shortens URL upto length 512 characters to 6 characters.This URL shortener will be able to redirect links and keep stats on the number of times a link was visited. 
+                <strong>MIT App Inventor: </strong> MIT App Inventor is an intuitive, visual programming environment that allows everyone to build fully functional apps for smartphones and tablets. Those new to MIT App Inventor can have a simple first app up and running in less than 30 minutes. 
                 </CardText>
                 <CardActions border>
-                <a href="https://github.com/Siddharth1010/smolink-url_shortener" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/Siddharth1010/appinventor-sources" target="_blank" rel="noopener noreferrer">
                 <Button colored>Github</Button></a>
                 </CardActions>
                 {/* <CardMenu style={{color: '#fff'}}>
