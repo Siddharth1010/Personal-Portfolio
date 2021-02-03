@@ -5,6 +5,7 @@ import icrtacpdf from './documents/icrtac.pdf';
 import stcpdf from './documents/stc.pdf';
 import gcloudpdf from './documents/gcloud.pdf';
 import mlpdf from './documents/ml.pdf';
+import hispdf from './documents/his.pdf';
 class Extras extends Component{
     
     constructor(props) {
@@ -45,6 +46,25 @@ class Extras extends Component{
                 </Card>
 
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle className="temp6" style={{color: '#fff', height: '176px'}} ></CardTitle>
+                <CardText>
+                <strong>International Conference on Hybrid Intelligent Systems, 2020</strong> 
+                </CardText>
+                <CardActions border>
+                <a href={hispdf} target="_blank" rel="noopener noreferrer">
+                <Button colored>View</Button></a>
+                </CardActions>
+                {/* <CardMenu style={{color: '#fff'}}>
+                    <IconButton name="share" />
+                </CardMenu> */}
+                </Card>
+
+
+                </div>
+
+                <div className="projects-grid2">
+
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle className="temp3" style={{color: '#fff', height: '176px'}} ></CardTitle>
                 <CardText>
                 <strong>Student Coordinator: Faculty development program (Python, Keras, TensorFlow)</strong> 
@@ -57,10 +77,6 @@ class Extras extends Component{
                     <IconButton name="share" />
                 </CardMenu> */}
                 </Card>
-
-                </div>
-
-                <div className="projects-grid2">
 
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle className="temp4" style={{color: '#fff', height: '176px'}} ></CardTitle>

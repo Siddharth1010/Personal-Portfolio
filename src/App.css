@@ -411,10 +411,16 @@ th, td {
   background-repeat: no-repeat;
 }
 
+.temp6{
+  background-image: url(./components/images/his.JPG);
+  background-size: 330px 190px;
+  background-repeat: no-repeat;
+}
+
 .publications{
   width: 100%;
   color: azure;
-  height: 100%;
+  min-height: 100%;
 }
 
 .material-icons{
