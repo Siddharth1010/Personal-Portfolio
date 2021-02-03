@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import { Grid, Cell } from 'react-mdl';
 // import cvpdf from './documents/Siddharth-CV.pdf';
 import temppdf from './documents/temp.pdf';
+// import { Icon, InlineIcon } from '@iconify/react';
+// import leetcodeIcon from '@iconify-icons/simple-icons/leetcode';
+
 
 class Landing extends Component{
     render(){
@@ -16,7 +19,7 @@ class Landing extends Component{
                         <div className="banner-text">
                             <h1>Siddharth Nair</h1>
                             <hr/>
-                            <p>Python | Java | Scala | Swift | Flutter | HTML/CSS | JavaScript | PHP | React | NodeJS | SQL</p>
+                            <p>Python | Java | C/C++ | Scala | Swift | Flutter | HTML/CSS | JavaScript | PHP | React | NodeJS | SQL</p>
                             <a className="cv-link" href={temppdf} target="_blank" rel="noopener noreferrer" > View Resume</a>
                             <div className="social-links">
                             <a href="https://github.com/Siddharth1010" target="_blank" rel="noopener noreferrer">
@@ -29,6 +32,10 @@ class Landing extends Component{
 
                                 <a href="https://twitter.com/sidnair07" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-twitter-square twitter" aria-hidden="true" />
+                                </a>
+
+                                <a href="https://www.facebook.com/siddharth.nayar.75" target="_blank" rel="noopener noreferrer">
+                                    <i class="fa fa-facebook-square facebook" aria-hidden="true" />
                                 </a>
                             </div>
                         </div>

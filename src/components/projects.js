@@ -11,7 +11,7 @@ class Projects extends Component{
             return(
                 <div className="projects-grid">
                 <div className="projects-grid1">
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} className="left1">
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://miro.medium.com/max/560/1*56uYVs9StWGN18CbXl7H2w.jpeg) center / cover'}} ></CardTitle>
                 <CardText>
                 <strong>COVID Smart Assistant:</strong> Deep Face Mask and social distance detection over AWS linked with responsive Amazon Alexa. Initiated through switch interfaced with RaspberryPi (Using Python, OpenCV, Keras, Boto3) 
@@ -24,8 +24,9 @@ class Projects extends Component{
                     <IconButton name="share" />
                 </CardMenu> */}
                 </Card>
+                
 
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} className="center1">
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://newcodalab.lri.fr/prod-public/logos/vqa_logo_67.png) center / cover'}} ></CardTitle>
                 <CardText>
                 <strong>VQA: </strong>Convolutional Neural Network based Flask application which inputs an image and renders a response to any text question directed at the corresponding image (Using Python, Keras, Flask) 
@@ -38,8 +39,9 @@ class Projects extends Component{
                 <IconButton name="share" />
                 </CardMenu> */}
                 </Card>
+                
 
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} className="right1">
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://images.idgesg.net/images/article/2017/10/wireless_network_internet_of_things_iot_thinkstock_853701554-100739367-large.jpg) center / cover'}} ></CardTitle>
                 <CardText>
                 <strong>GreenBin: </strong>An IOT based Cloud Application to provide a innovative and feasable solution to promote Swachh Bharat Campaign and create environment awareness to manage waste effectively.(Using Arduino, LoRa, Android)
@@ -56,7 +58,7 @@ class Projects extends Component{
 
                 <div className="projects-grid2">
 
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} className="left2">
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://icon-library.com/images/discussion-forum-icon/discussion-forum-icon-8.jpg) center / cover'}} ></CardTitle>
                 <CardText>
                 <strong>Eclipse: </strong>A discussion forum for employees to interact with each other and solve problems internal to the company. Including E-mail notifications on response (Using HTML, CSS, JS, PHP, SQL, JQuery) 
@@ -71,7 +73,7 @@ class Projects extends Component{
                 </Card>
 
 
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}} className="center2">
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://www.verdict.co.uk/wp-content/uploads/2019/09/home-automation-interest.jpg) center / cover'}} ></CardTitle>
                 <CardText>
                 <strong>Smart Home: </strong>A Voice and SMS controlled home automation using HC05 Bluetooth module interfaced with Node-Red for real time device status display. (Using Arduino, Android, Node-Red, MIT App Inventor) 
@@ -86,7 +88,7 @@ class Projects extends Component{
                 </Card>
 
 
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto' }} className="right2">
                 <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://w7.pngwing.com/pngs/46/626/png-transparent-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template-blue.png) center / cover'}} ></CardTitle>
                 <CardText>
                 <strong>Translator: </strong>A two-way translator between English and French using data structures - Trie, Queue, Stack, Linked List. Data is stored in a file which contains English words and their corresponding French words.(Using C++) 
@@ -117,7 +119,7 @@ class Projects extends Component{
                 <div className="opensource-grid" style={{width: '100%', height: '100%'}}>
 
                     <center>
-                    <img src="https://github-readme-stats.vercel.app/api?username=Siddharth1010&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=b00415"></img>
+                    <img className="github-stats" src="https://github-readme-stats.vercel.app/api?username=Siddharth1010&&show_icons=true&title_color=ffffff&icon_color=bb2acf&text_color=daf7dc&bg_color=b00415"></img>
                     </center>
 
                     <div className="projects-grid2">
