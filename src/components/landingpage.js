@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Grid, Cell } from 'react-mdl';
-// import cvpdf from './documents/Siddharth-CV.pdf';
-import temppdf from './documents/temp.pdf';
+import cvpdf from './documents/Siddharth-CV.pdf';
+// import temppdf from './documents/temp.pdf';
 // import { Icon, InlineIcon } from '@iconify/react';
 // import leetcodeIcon from '@iconify-icons/simple-icons/leetcode';
 
@@ -20,7 +20,7 @@ class Landing extends Component{
                             <h1>Siddharth Nair</h1>
                             <hr/>
                             <p>Python | Java | C/C++ | Scala | Swift | Flutter | HTML/CSS | JavaScript | PHP | React | NodeJS | SQL</p>
-                            <a className="cv-link" href={temppdf} target="_blank" rel="noopener noreferrer" > View Resume</a>
+                            <a className="cv-link" href={cvpdf} target="_blank" rel="noopener noreferrer" > View Resume</a>
                             <div className="social-links">
                             <a href="https://github.com/Siddharth1010" target="_blank" rel="noopener noreferrer">
                                     <i className="fa fa-github-square github" aria-hidden="true" />
