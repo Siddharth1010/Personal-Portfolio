@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.d9acc57f.chunk.css",
-    "main.js": "/portfolio/static/js/main.d01e3e49.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d01e3e49.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.fc3c5f4f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.fc3c5f4f.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b7de8572.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b7de8572.js.map",
     "static/css/2.4565b4cf.chunk.css": "/portfolio/static/css/2.4565b4cf.chunk.css",
@@ -14,6 +14,7 @@
     "static/css/2.4565b4cf.chunk.css.map": "/portfolio/static/css/2.4565b4cf.chunk.css.map",
     "static/css/main.d9acc57f.chunk.css.map": "/portfolio/static/css/main.d9acc57f.chunk.css.map",
     "static/js/2.6c03ca2f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6c03ca2f.chunk.js.LICENSE.txt",
+    "static/media/Siddharth-CV.2cd11eb8.pdf": "/portfolio/static/media/Siddharth-CV.2cd11eb8.pdf",
     "static/media/aws.18f331b1.png": "/portfolio/static/media/aws.18f331b1.png",
     "static/media/App.css": "/portfolio/static/media/uta.8982c8a0.JPG",
     "static/media/gcloud.d6e66650.pdf": "/portfolio/static/media/gcloud.d6e66650.pdf",
@@ -23,7 +24,6 @@
     "static/media/ml.6996f507.pdf": "/portfolio/static/media/ml.6996f507.pdf",
     "static/media/ongil.dce6cfa9.pdf": "/portfolio/static/media/ongil.dce6cfa9.pdf",
     "static/media/stc.9d4503fc.pdf": "/portfolio/static/media/stc.9d4503fc.pdf",
-    "static/media/temp.ac0398d4.pdf": "/portfolio/static/media/temp.ac0398d4.pdf",
     "static/media/uta.5f7163db.pdf": "/portfolio/static/media/uta.5f7163db.pdf",
     "static/media/verginlor.7567a477.pdf": "/portfolio/static/media/verginlor.7567a477.pdf"
   },
@@ -32,6 +32,6 @@
     "static/css/2.4565b4cf.chunk.css",
     "static/js/2.6c03ca2f.chunk.js",
     "static/css/main.d9acc57f.chunk.css",
-    "static/js/main.d01e3e49.chunk.js"
+    "static/js/main.fc3c5f4f.chunk.js"
   ]
 }
