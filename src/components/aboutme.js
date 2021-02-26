@@ -32,7 +32,7 @@ class About extends Component{
                             <td>Vellore Institute of Technology</td>
                             <td>2018-Present</td>
                             <td>BTech Computer Science</td>
-                            <td>CGPA: 8.56 / 10</td>
+                            <td>CGPA: 8.73 / 10</td>
                             </tr>
                             <tr>
                             <td>DAV Senior Secondary School</td>
