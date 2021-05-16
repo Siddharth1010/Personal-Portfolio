@@ -65,6 +65,30 @@ class About extends Component{
                                 </tr>
                             </table>
 
+                            <table>
+                            <tr>
+                            <th>School</th>
+                            <th>Year</th>
+                            <th>Course</th>
+                            </tr>
+                            <tr>
+                            <td>VIT University</td>
+                            <td>2018-2022</td>
+                            <td>BTech Computer Science</td>
+                            </tr>
+                            <tr>
+                            <td>DAV Senior Secondary School</td>
+                            <td>2016-2018</td>
+                            <td>Higher Secondary Education</td>
+                            </tr>
+                            <tr>
+                            <td>Bhavans Rajaji Vidyashram</td>
+                            <td>2004-2016</td>
+                            <td>Secondary Education</td>
+
+                            </tr>
+                            </table>
+
                             </div>
 
                         </div>
